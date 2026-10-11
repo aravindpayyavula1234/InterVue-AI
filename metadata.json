@@ -1,0 +1,6 @@
+{
+  "name": "InterVue — AI Interview Preparation Platform",
+  "description": "Your Resume. Your Skills. Your Interview. AI-driven personalized technical mock interviews with resume topic extraction, progressive questions, audio practice, and in-depth rubric evaluations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

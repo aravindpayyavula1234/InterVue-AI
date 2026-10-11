@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "id": "usr-1791677671001-2u21h",
+      "email": "test.dev@intervue.ai",
+      "name": "Test Dev",
+      "createdAt": "2026-10-11T00:14:31.001Z",
+      "passwordHash": "$2b$10$Bg7lqfHffHI.sjuNc6ffzOcJdkq/t.1gMur6lARI6/NGyPqYOQfyW"
+    }
+  ],
+  "resumes": [
+    {
+      "id": "res-sample-1791677778618",
+      "fileName": "Alex_Mercer_FullStack_Resume.pdf",
+      "fileSize": 45200,
+      "uploadedAt": "2026-10-11T00:16:18.618Z",
+      "fullName": "Alex Mercer",
+      "email": "alex.mercer@techmail.com",
+      "summary": "Senior Full-Stack Engineer with 4+ years of experience designing high-throughput distributed web systems, REST/GraphQL APIs, and responsive React applications. Expertise in Python, TypeScript, Node.js, and PostgreSQL.",
+      "education": [
+        {
+          "school": "University of California, Berkeley",
+          "degree": "B.S. in Computer Science",
+          "year": "2020"
+        }
+      ],
+      "skills": {
+        "languages": [
+          "Python",
+          "TypeScript",
+          "JavaScript",
+          "SQL",
+          "Go"
+        ],
+        "frameworks": [
+          "React",
+          "Next.js",
+          "Express",
+          "FastAPI",
+          "Tailwind CSS",
+          "Redux Toolkit"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "Redis",
+          "MongoDB"
+        ],
+        "tools": [
+          "Docker",
+          "Kubernetes",
+          "AWS",
+          "Git",
+          "Jest",
+          "GitHub Actions"
+        ],
+        "coreConcepts": [
+          "REST APIs",
+          "Microservices Architecture",
+          "Database Indexing",
+          "Caching Strategies",
+          "Data Structures & Algorithms",
+          "Asynchronous Programming"
+        ]
+      },
+      "projects": [
+        {
+          "title": "Distributed Cache & Analytics Engine",
+          "techStack": [
+            "Python",
+            "Redis",
+            "FastAPI",
+            "Docker"
+          ],
+          "description": "Architected an in-memory caching proxy handling 15,000 QPS with sub-5ms p99 latency using Redis pipelining and consistent hashing."
+        },
+        {
+          "title": "Cloud Commerce Dashboard",
+          "techStack": [
+            "React",
+            "TypeScript",
+            "PostgreSQL",
+            "Tailwind CSS"
+          ],
+          "description": "Designed a full-stack e-commerce back-office portal supporting 50,000+ active SKU catalogs with optimized PostgreSQL queries."
+        }
+      ],
+      "experience": [
+        {
+          "role": "Software Engineer",
+          "company": "Apex Cloud Systems",
+          "duration": "2022 - Present",
+          "highlights": [
+            "Developed and maintained 12+ mission-critical microservices deployed across AWS ECS.",
+            "Designed database migrations and transaction-safe schema changes in PostgreSQL for payment reconciliation.",
+            "Reduced cold-start latency of serverless endpoints by 60% through payload minimization."
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic-python",
+          "name": "Python",
+          "category": "languages",
+          "summary": "High-throughput APIs and distributed cache proxy using Python & FastAPI.",
+          "evidence": "Architected an in-memory caching proxy handling 15,000 QPS with sub-5ms p99 latency in Python.",
+          "projectReference": "Distributed Cache & Analytics Engine",
+          "evidenceStrength": "high",
+          "isAmbiguous": false
+        },
+        {
+          "id": "topic-react",
+          "name": "React & TypeScript",
+          "category": "frameworks",
+          "summary": "Production enterprise portals with state management and responsive UI.",
+          "evidence": "Designed a full-stack e-commerce back-office portal supporting 50,000+ active SKU catalogs in React and TypeScript.",
+          "projectReference": "Cloud Commerce Dashboard",
+          "evidenceStrength": "high",
+          "isAmbiguous": false
+        },
+        {
+          "id": "topic-postgresql",
+          "name": "PostgreSQL & SQL",
+          "category": "databases",
+          "summary": "Relational data modeling, query optimization, connection pooling, and partial indexing.",
+          "evidence": "Optimized PostgreSQL queries with partial indexing and connection pooling, reducing slow query bottlenecks by 42%.",
+          "projectReference": "Cloud Commerce Dashboard",
+          "evidenceStrength": "high",
+          "isAmbiguous": false
+        },
+        {
+          "id": "topic-redis",
+          "name": "Redis Caching & Concurrency",
+          "category": "databases",
+          "summary": "In-memory caching pipelines, consistent hashing, and high QPS cache proxying.",
+          "evidence": "Redis pipelining and consistent hashing handling 15,000 QPS.",
+          "projectReference": "Distributed Cache & Analytics Engine",
+          "evidenceStrength": "high",
+          "isAmbiguous": false
+        },
+        {
+          "id": "topic-distributed-systems",
+          "name": "Distributed Systems & Microservices",
+          "category": "concepts",
+          "summary": "Microservices architecture, latency reduction, and AWS ECS cloud infrastructure.",
+          "evidence": "Developed and maintained 12+ mission-critical microservices deployed across AWS ECS.",
+          "projectReference": "Apex Cloud Systems Experience",
+          "evidenceStrength": "high",
+          "isAmbiguous": false
+        },
+        {
+          "id": "topic-docker-devops",
+          "name": "Docker & Containerization",
+          "category": "tools",
+          "summary": "Containerized environments, automated deployment, and AWS ECS clusters.",
+          "evidence": "Tools: Docker, Kubernetes, AWS (S3, EC2), GitHub Actions.",
+          "evidenceStrength": "medium",
+          "isAmbiguous": false
+        }
+      ],
+      "userId": "usr-1791677671001-2u21h"
+    }
+  ],
+  "jobDescriptions": [],
+  "interviews": [],
+  "feedback": []
+}

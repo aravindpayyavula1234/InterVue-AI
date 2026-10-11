@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #0B0B0B;
+  --color-bg-secondary: #111111;
+  --color-bg-card: #181818;
+  --color-bg-elevated: #202020;
+  --color-brand-primary: #FF7900;
+  --color-brand-secondary: #FF9F43;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #B3B3B3;
+  --color-border-subtle: #303030;
+  --color-border-hover: #454545;
+  --color-success: #22C55E;
+  --color-danger: #EF4444;
+
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+@layer base {
+  body {
+    background-color: #0B0B0B;
+    color: #FFFFFF;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0B0B0B;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF7900;
+  }
+}
+
+/* Glass & Glow utilities */
+.glow-orange-sm {
+  box-shadow: 0 0 15px -3px rgba(255, 121, 0, 0.25);
+}
+
+.glow-orange-md {
+  box-shadow: 0 0 25px -4px rgba(255, 121, 0, 0.35);
+}
+
+.glow-orange-border {
+  border-color: rgba(255, 121, 0, 0.45);
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(255, 121, 0, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
